@@ -28,6 +28,7 @@ const render = (res, file) => {
         }
 
         res.writeHead(404, { 'Content-Type' : 'text/html'});
+        
         return res.end(data);
     })
 }
